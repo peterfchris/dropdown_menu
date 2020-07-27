@@ -94,3 +94,16 @@ body {
   font-size: 4rem;
 }
 
+/* Responsive Design */
+
+@media(max-width: 600px) {
+  #navbar ul li {
+    display: block;
+  }
+
+  #navbar ul li:hover ul {
+    width: 100%;
+    position: relative;
+  }
+}
+
